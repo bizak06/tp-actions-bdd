@@ -1,0 +1,14 @@
+{
+    "name": "dz-univ-bejaia/students-php",
+    "description": "Gestion des étudiants avec PostgreSQL (PDO) et tests PHPUnit",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "files": ["Students.php"]
+    }
+}
