@@ -109,7 +109,7 @@ jobs:
     needs: [python, node, java, php]
     steps:
       - name: Build
-        run: echo "Tous les tests sont verts : build validé."
+        run: echo "Tous les tests sont verts - build validé."
 
   deploy:
     name: Deploy
